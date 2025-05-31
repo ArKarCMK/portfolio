@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .border {
+  color: primary;
+  height: calc(100vh - 200px);
+  width: calc(100vw - 200px);
+  border: 1px solid #C4D1EC;
+  border-radius: 10px 0 10px 10px;
+}
+
+@media (max-width: 768px) {
+  .container .border {
+    width: 100vw;
+    height: 100vh;
+    border: none;
+  }
+}
