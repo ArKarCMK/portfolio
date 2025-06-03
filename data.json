@@ -1,0 +1,36 @@
+{
+  "name": "Arkar Portfolio",
+  "title": "Web and Mobile App Developer",
+  "email": "arkarcmk.dev@gmail.com",
+  "social_link": [
+    {
+      "logo": "./public/social_logo/facebook.png",
+      "link": "https://www.facebook.com/arkarcmk"
+    },
+    {
+      "logo": "./public/social_logo/github.png",
+      "link": "https://github.com/arkarcmk"
+    },
+    {
+      "logo": "./public/social_logo/linkedin.png",
+      "link": "https://www.linkedin.com/in/arkarcmk/"
+    }
+  ],
+  "about_me": [
+    "I'm a passionate full-stack web and mobile app developer with a strong focus on creating dynamic websites and seamless mobile experiences. I thrive on solving complex problems and building solutions that enhance user experiences.",
+    "Currently, I'm a Senior Associate Engineer at Pro Empire where I work on a cross-border e-commerce platform. My work involves developing the Seller Centre for shop management using React, a Delivery Management System for logistics operations, and a Customer Mobile App built with Flutter to provide a smooth shopping experience. The backend is developed using Go to ensure efficient performance and scalability. ",
+    "Previously, as a Junior Developer at Klonotech, I was involved in developing web applications, including CMS system, School Management System and Hotel Management System using Laravel and Vuejs.",
+    "Thanks for visiting!"
+  ],
+  "skill": [
+    "./public/skills/docker.png",
+    "./public/skills/golang.png",
+    "./public/skills/javascript.png",
+    "./public/skills/laravel.png",
+    "./public/skills/linux.png",
+    "./public/skills/nginx.png",
+    "./public/skills/php.png",
+    "./public/skills/react.png",
+    "./public/skills/vue.png"
+  ]
+}
