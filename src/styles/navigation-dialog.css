@@ -1,0 +1,19 @@
+.link-container .links {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.link-container .nav {
+  padding: 20px;
+
+  display: flex;
+  font-size: 20px;
+}
+
+.link-container .nav.active {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e67e22;
+}
