@@ -1,8 +1,8 @@
 {
-  "name": "Arkar Portfolio",
+  "name": "Arkar Chan Myae Ko",
   "title": "Web and Mobile App Developer",
   "email": "arkarcmk.dev@gmail.com",
-  "social_link": [
+  "social_links": [
     {
       "logo": "./public/social_logo/facebook.png",
       "link": "https://www.facebook.com/arkarcmk"
@@ -31,6 +31,8 @@
     "./public/skills/nginx.png",
     "./public/skills/php.png",
     "./public/skills/react.png",
-    "./public/skills/vue.png"
+    "./public/skills/vue.png",
+    "./public/skills/flutter.png",
+    "./putblic/skills/dart.png"
   ]
 }

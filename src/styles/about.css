@@ -1,0 +1,41 @@
+.wrapper {
+  padding: 30px;
+}
+
+.wrapper .name {
+  font-size: 28px;
+}
+
+.wrapper .title {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.wrapper .email {
+  padding-bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.wrapper .email .icon {
+  cursor: pointer;
+}
+
+.wrapper .social-links {
+  display: flex;
+  gap: 10px;
+}
+
+.wrapper .about-me {
+  padding-top: 20px;
+  display: flex;
+
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding: 10px;
+  }
+}
