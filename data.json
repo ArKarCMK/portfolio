@@ -23,16 +23,16 @@
     "Thanks for visiting!"
   ],
   "skill": [
-    "./public/skills/docker.png",
     "./public/skills/golang.png",
     "./public/skills/javascript.png",
-    "./public/skills/laravel.png",
-    "./public/skills/linux.png",
-    "./public/skills/nginx.png",
     "./public/skills/php.png",
+    "./public/skills/dart.png",
+    "./public/skills/laravel.png",
     "./public/skills/react.png",
     "./public/skills/vue.png",
     "./public/skills/flutter.png",
-    "./putblic/skills/dart.png"
+    "./public/skills/linux.png",
+    "./public/skills/docker.png",
+    "./public/skills/nginx.png"
   ]
 }

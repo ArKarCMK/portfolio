@@ -40,6 +40,16 @@ const About: React.FC = () => {
             <Box key={index}>{text}</Box>
           ))}
         </Box>
+        <Box background={'#121E41'}>
+          <Box className="skill-title">Skills</Box>
+          <Box className="skills">
+            {data.skill.map((skill: string, index: number) => (
+              <Box key={index} className="skill">
+                <img src={skill} alt={skill} width="100px" height="100px" />
+              </Box>
+            ))}
+          </Box>
+        </Box>
       </Box>
     </>
   );

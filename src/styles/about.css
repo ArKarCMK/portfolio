@@ -1,9 +1,11 @@
 .wrapper {
   padding: 30px;
+  /* padding: 0 30px; */
 }
 
 .wrapper .name {
   font-size: 28px;
+  /* padding-top: 30px; */
 }
 
 .wrapper .title {
@@ -34,8 +36,34 @@
   gap: 10px;
 }
 
+.wrapper .skill-title {
+  font-weight: 600;
+  padding: 30px 0 10px;
+}
+
+.wrapper .skills {
+  display: flex;
+  overflow: hidden;
+  gap: 10px;
+}
+
+.wrapper .skill img {
+  width: 60px;
+  height: 60px;
+}
+
 @media screen and (max-width: 600px) {
   .wrapper {
     padding: 10px;
+  }
+  .wrapper .skills {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    animation: scroll-horizontal 20s linear infinite;
+    display: flex;
+    gap: 10px;
+  }
+  .wrapper .skill {
+    flex: 0 0 auto;
   }
 }
