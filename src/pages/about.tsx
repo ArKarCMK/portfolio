@@ -1,4 +1,5 @@
 import { Box, IconButton, Clipboard } from '@chakra-ui/react';
+import { Tooltip } from '@/components/ui/tooltip';
 import React from 'react';
 import '@/styles/about.css';
 import data from '../../data.json';
@@ -6,6 +7,11 @@ import data from '../../data.json';
 interface SocialLinks {
   logo: string;
   link: string;
+}
+
+interface Skill {
+  logo: string;
+  name: string;
 }
 
 const About: React.FC = () => {
@@ -43,10 +49,12 @@ const About: React.FC = () => {
         <Box background={'#121E41'}>
           <Box className="skill-title">Skills</Box>
           <Box className="skills">
-            {data.skill.map((skill: string, index: number) => (
-              <Box key={index} className="skill">
-                <img src={skill} alt={skill} width="100px" height="100px" />
-              </Box>
+            {data.skill.map((skill: Skill, index: number) => (
+              <Tooltip key={index} showArrow content={skill.name} openDelay={300}>
+                <Box className="skill">
+                  <img src={skill.logo} alt={skill.name} width="100px" height="100px" />
+                </Box>
+              </Tooltip>
             ))}
           </Box>
         </Box>

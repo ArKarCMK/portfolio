@@ -23,16 +23,66 @@
     "Thanks for visiting!"
   ],
   "skill": [
-    "./public/skills/golang.png",
-    "./public/skills/javascript.png",
-    "./public/skills/php.png",
-    "./public/skills/dart.png",
-    "./public/skills/laravel.png",
-    "./public/skills/react.png",
-    "./public/skills/vue.png",
-    "./public/skills/flutter.png",
-    "./public/skills/linux.png",
-    "./public/skills/docker.png",
-    "./public/skills/nginx.png"
+    { "name": "GoLang", "logo": "./public/skills/golang.png" },
+    { "name": "JavaScript", "logo": "./public/skills/javascript.png" },
+    { "name": "PHP", "logo": "./public/skills/php.png" },
+    { "name": "Dart", "logo": "./public/skills/dart.png" },
+    { "name": "Laravel", "logo": "./public/skills/laravel.png" },
+    { "name": "React", "logo": "./public/skills/react.png" },
+    { "name": "Vue.js", "logo": "./public/skills/vue.png" },
+    { "name": "Flutter", "logo": "./public/skills/flutter.png" },
+    { "name": "Linux", "logo": "./public/skills/linux.png" },
+    { "name": "Docker", "logo": "./public/skills/docker.png" },
+    { "name": "Nginx", "logo": "./public/skills/nginx.png" }
+  ],
+  "experience": [
+    {
+      "job-title": "Senior Associate",
+      "company": "Pro Empire",
+      "date": "2022 - Present",
+      "description": [
+        "Developed and maintained a React application for a client",
+        "Collaborated with a team of developers to create a new feature",
+        "Debugged and fixed issues in the application"
+      ]
+    },
+    {
+      "job-title": "Senior Associate",
+      "company": "Pro Empire",
+      "date": "2022 - Present",
+      "description": [
+        "Developed and maintained a React application for a client",
+        "Collaborated with a team of developers to create a new feature",
+        "Debugged and fixed issues in the application"
+      ]
+    },
+    {
+      "job-title": "Senior Associate",
+      "company": "Pro Empire",
+      "date": "2022 - Present",
+      "description": [
+        "Developed and maintained a React application for a client",
+        "Collaborated with a team of developers to create a new feature",
+        "Debugged and fixed issues in the application"
+      ]
+    },
+    {
+      "job-title": "Senior Associate",
+      "company": "Pro Empire",
+      "date": "2022 - Present",
+      "description": [
+        "Developed and maintained a React application for a client",
+        "Collaborated with a team of developers to create a new feature",
+        "Debugged and fixed issues in the application"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "University of Technology",
+      "date": "2018 - 2022"
+    }
   ]
+
 }
