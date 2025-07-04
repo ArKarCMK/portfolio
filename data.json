@@ -18,8 +18,9 @@
   ],
   "about_me": [
     "I'm a passionate full-stack web and mobile app developer with a strong focus on creating dynamic websites and seamless mobile experiences. I thrive on solving complex problems and building solutions that enhance user experiences.",
-    "Currently, I'm a Senior Associate Engineer at Pro Empire where I work on a cross-border e-commerce platform. My work involves developing the Seller Centre for shop management using React, a Delivery Management System for logistics operations, and a Customer Mobile App built with Flutter to provide a smooth shopping experience. The backend is developed using Go to ensure efficient performance and scalability. ",
-    "Previously, as a Junior Developer at Klonotech, I was involved in developing web applications, including CMS system, School Management System and Hotel Management System using Laravel and Vuejs.",
+    "Currently, I'm a Senior Associate Engineer at Pro Empire where I work on a cross-border e-commerce platform. My work involves developing the Seller Centre for shop management, a Delivery Management System for logistics operations, and a Customer Mobile App to provide a smooth shopping experience.",
+    "I'm also working as a part-time Senior Associate Engineer at Klonotech, building and deploying a church management system that includes an admin web app and a mobile app for church planters.",
+    "Previously, as a Junior Developer at Klonotech, I was involved in developing web applications, including a CMS, School Management System, and Hotel Management System.",
     "Thanks for visiting!"
   ],
   "skill": [
@@ -33,55 +34,61 @@
     { "name": "Flutter", "logo": "./public/skills/flutter.png" },
     { "name": "Linux", "logo": "./public/skills/linux.png" },
     { "name": "Docker", "logo": "./public/skills/docker.png" },
-    { "name": "Nginx", "logo": "./public/skills/nginx.png" }
+    { "name": "Nginx", "logo": "./public/skills/nginx.png" },
+    { "name": "MySQL", "logo": "./public/skills/mysql.png" },
+    { "name": "PostgreSQL", "logo": "./public/skills/postgresql.png" }
   ],
+
+  
   "experience": [
     {
-      "job-title": "Senior Associate",
+      "job_title": "SENIOR ASSOCIATE SOFTWARE ENGINEER ",
       "company": "Pro Empire",
-      "date": "2022 - Present",
+      "date": "Jun 2024 - Present",
       "description": [
-        "Developed and maintained a React application for a client",
-        "Collaborated with a team of developers to create a new feature",
-        "Debugged and fixed issues in the application"
+        "Developed and maintained high quality e-commerce platform",
+        "Reviewed the code and resolved the conflicts to ensure smooth development",
+        "Implemented Docker containerization to streamline and optimized deployments",
+        "Manage cloud hosting environments for scalable and efficient deployments"
       ]
     },
     {
-      "job-title": "Senior Associate",
-      "company": "Pro Empire",
-      "date": "2022 - Present",
+      "job_title": "SENIOR ASSOCIATE SOFTWARE ENGINEER",
+      "company": "Klonotech",
+      "date": "Apr 2025 - Present",
       "description": [
-        "Developed and maintained a React application for a client",
-        "Collaborated with a team of developers to create a new feature",
-        "Debugged and fixed issues in the application"
+        "Developed church management platform using Nuxtjs and Laravel",
+        "Developed mobile app for church planter using Nuxtjs with Capacitor",
+        "Implemented Google Maps API with drag-and-drop functionality for managing church locations",
+        "Integrated Firebase Cloud Messaging to deliver real-time push notifications on both web and mobile",
+        "Handled manual deployment and environment configuration for development environments"
       ]
     },
     {
-      "job-title": "Senior Associate",
+      "job_title": "ASSOCIATE SOFTWARE ENGINEER",
       "company": "Pro Empire",
-      "date": "2022 - Present",
+      "date": "Jan 2023 - Jun 2024",
       "description": [
-        "Developed and maintained a React application for a client",
-        "Collaborated with a team of developers to create a new feature",
-        "Debugged and fixed issues in the application"
+        "Designed and developed a cross-border e-commerce mobile application using Flutter, Go, Keycloak and PostgreSQL",
+        "Designed the seller centre web application using Figma and developed with Nextjs, Graphql, Go, Keycloak and PostgresQL",
+        "Designed and developed hotel management system using Vuejs, Laravel and MySQL"
       ]
     },
     {
-      "job-title": "Senior Associate",
-      "company": "Pro Empire",
-      "date": "2022 - Present",
+      "job_title": "INTERN SOFTWARE ENGINEER",
+      "company": "Klonotech",
+      "date": "Jan 2023 - Jun 2024",
       "description": [
-        "Developed and maintained a React application for a client",
-        "Collaborated with a team of developers to create a new feature",
-        "Debugged and fixed issues in the application"
+        "Designed and developed school management system client using Vuejs",
+        "Built CMS public website and admin panel client using Vuejs"
       ]
     }
   ],
   "education": [
     {
-      "degree": "Bachelor of Science in Computer Science",
-      "university": "University of Technology",
-      "date": "2018 - 2022"
+      "degree": "Civil Engineering",
+      "university": "Pyay Technological University",
+      "date": "2016 - 2020"
     }
   ]
 

@@ -43,27 +43,27 @@
 
 .wrapper .skills {
   display: flex;
+  flex-wrap: wrap;
   overflow: hidden;
   gap: 10px;
 }
 
 .wrapper .skill img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 }
 
 @media screen and (max-width: 600px) {
   .wrapper {
     padding: 10px;
   }
-  .wrapper .skills {
-    overflow-x: auto;
-    flex-wrap: nowrap;
-    animation: scroll-horizontal 20s linear infinite;
-    display: flex;
+ 
+  /* .wrapper .skill {
+    flex-wrap: wrap;
     gap: 10px;
-  }
-  .wrapper .skill {
-    flex: 0 0 auto;
-  }
+  } */
+  .wrapper .skill img {
+  width: 40px;
+  height: 40px;
+}
 }

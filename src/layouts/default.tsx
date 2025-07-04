@@ -7,6 +7,7 @@ import NavigationDialog from '@/components/NavigationDialog';
 
 const DefaultLayout: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <Box background="background" className="container">
