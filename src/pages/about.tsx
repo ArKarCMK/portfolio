@@ -3,6 +3,7 @@ import { Tooltip } from '@/components/ui/tooltip';
 import React from 'react';
 import '@/styles/about.css';
 import data from '../../data.json';
+import SkillRating from '@/components/SkillRating';
 
 interface SocialLinks {
   logo: string;
@@ -57,6 +58,9 @@ const About: React.FC = () => {
               </Tooltip>
             ))}
           </Box>
+        </Box>
+        <Box>
+          <SkillRating />
         </Box>
       </Box>
     </>

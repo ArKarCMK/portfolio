@@ -38,6 +38,63 @@
     { "name": "MySQL", "logo": "./public/skills/mysql.png" },
     { "name": "PostgreSQL", "logo": "./public/skills/postgresql.png" }
   ],
+  "skill_rating": [
+    {
+      "title": "Frontend Development",
+      "language": [
+        {
+          "name": "VueJS/NuxtJS",
+          "rating": 90
+        },
+        {
+          "name": "React/NextJS",
+          "rating": 80
+        }
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "language": [
+        {
+          "name": "GoLang",
+          "rating": 75
+        },
+        {
+          "name": "PHP/Laravel",
+          "rating": 90
+        }
+        
+      ]
+    }, 
+    {
+      "title": "Mobile App Development",
+      "language": [
+        {
+          "name": "Dart/Flutter",
+          "rating": 70
+        },
+        {
+          "name": "NuxtJS + Capacitor",
+          "rating": 85
+        }
+      ]
+    }, 
+    {
+      "title": "DevOps & System Administration",
+      "language": [
+        { "name": "Linux", "rating": 90 },
+        { "name": "Nginx", "rating": 75 },
+        { "name": "Docker", "rating": 85 }
+      ]
+    }, 
+    {
+      "title": "Database Management",
+      "language": [
+        { "name": "MySQL", "rating": 80 },
+        { "name": "PostgreSQL", "rating": 75 }
+      ]
+    }
+  ],
 
   
   "experience": [
