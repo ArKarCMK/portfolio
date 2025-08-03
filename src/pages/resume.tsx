@@ -4,7 +4,7 @@ import { CiStar } from 'react-icons/ci';
 import { FaFileDownload } from 'react-icons/fa';
 
 import '@/styles/resume.css';
-import data from '../../data.json';
+import data from '../../data/resume.json';
 import type { Experience, Education } from '@/types/resume';
 
 const Resume: React.FC = () => {
@@ -32,11 +32,15 @@ const Resume: React.FC = () => {
                 <Box className="date" color={'secondary'}>
                   {exp.date}
                 </Box>
-                <ul className="description" color={'secondary'}>
-                  {exp.description.map((desc: string, i: number) => (
-                    <li key={i}>{desc}</li>
-                  ))}
-                </ul>
+                <Box>
+                  <ul className="description" color={'secondary'}>
+                    {exp.description.map((desc: string, i: number) => (
+                      <li color={'secondary'} key={i}>
+                        {desc}
+                      </li>
+                    ))}
+                  </ul>
+                </Box>
               </Box>
             </Box>
           ))}

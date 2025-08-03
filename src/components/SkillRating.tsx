@@ -2,7 +2,7 @@ import { Box, Text } from '@chakra-ui/react';
 import '@/styles/skill-rating.css';
 import { Progress } from '@chakra-ui/react';
 import { Card } from '@chakra-ui/react';
-import data from '../../data.json';
+import data from '../../data/about.json';
 type Skill = {
   title: string;
   language: Language[];
@@ -17,7 +17,7 @@ const SkillRating: React.FC = () => {
     <>
       <Box className="skill-wrapper">
         {data.skill_rating.map((skill: Skill, index: number) => (
-          <Card.Root width="320px" variant="elevated" bg="#182a5e" key={index}>
+          <Card.Root width="320px" variant="elevated" bg="cardBackground" key={index}>
             <Card.Body gap="2">
               <Card.Title color={'secondaryText'} mb="2">
                 {skill.title}

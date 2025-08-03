@@ -2,7 +2,7 @@ import { Box, IconButton, Clipboard } from '@chakra-ui/react';
 import { Tooltip } from '@/components/ui/tooltip';
 import React from 'react';
 import '@/styles/about.css';
-import data from '../../data.json';
+import data from '../../data/about.json';
 import SkillRating from '@/components/SkillRating';
 
 interface SocialLinks {
@@ -18,7 +18,7 @@ interface Skill {
 const About: React.FC = () => {
   return (
     <>
-      <Box color="secondary" className="wrapper">
+      <Box color="secondary" className="about-wrapper">
         <Box className="name"> {data.name}</Box>
         <Box className="title"> {data.title}</Box>
         <Box className="email">
