@@ -1,0 +1,87 @@
+.timeline {
+  position: relative;
+  padding-left: 20px;
+  margin-top: 30px;
+  border-left: 2px solid #E67E22;
+  margin-left:60px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-left: 6px;
+}
+
+.timeline-star {
+  position: absolute;
+  left: -32px;
+  top: -1px;
+  background: #121E41; 
+  z-index: 2;
+}
+
+.section-title .text {
+  font-size: 20px;
+}
+
+.entry {
+  position: relative;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #E67E22;
+  border-radius: 50%;
+  position: absolute;
+  left: -26px;
+  top: 6px;
+}
+
+.content {
+  padding-left: 10px;
+}
+
+.job-title,
+.degree {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 5px;;
+}
+
+.company,
+.university,
+.date {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 3px;;
+}
+
+.description {
+  margin-top: 6px;
+  padding-left: 18px;
+  list-style-type: disc;
+}
+
+.download-button {
+  margin: 30px 60px;
+}
+
+@media (max-width: 786px) {
+  .timeline {
+    margin-left: 0px;
+  }
+  .download-button {
+  margin: 30px 5px;
+}
+}
