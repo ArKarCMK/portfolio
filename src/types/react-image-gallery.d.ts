@@ -1,4 +1,3 @@
-// src/types/react-image-gallery.d.ts
 declare module 'react-image-gallery' {
   import * as React from 'react';
 
