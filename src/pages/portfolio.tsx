@@ -65,7 +65,6 @@ const Portfolio: React.FC = () => {
                     {project.tech_stacks.map((tech_stack: string, index: number) => (
                       <Badge
                         bg={'blue.700'}
-                        // colorPalette={'blue'}
                         color={'secondaryText'}
                         size={'md'}
                         variant={'subtle'}

@@ -6,17 +6,6 @@ import DefaultLayout from './layouts/default';
 import { createBrowserRouter, Route, createRoutesFromElements, Navigate } from 'react-router-dom';
 import { system } from './theme';
 import { ChakraProvider } from '@chakra-ui/react';
-// const config = defineConfig({
-//   theme: {
-//     tokens: {
-//       colors: {
-//         primary: { value: "#0FEE0F" },
-//       },
-//     },
-//   },
-// })
-
-// const system = createSystem(defaultConfig, config)
 
 const router = createBrowserRouter(
   createRoutesFromElements(
