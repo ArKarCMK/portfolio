@@ -4,6 +4,7 @@ import React from 'react';
 import '@/styles/about.css';
 import data from '../../data/about.json';
 import SkillRating from '@/components/SkillRating';
+import { usePageTitle } from '../hooks/usePageTitle';
 
 interface SocialLinks {
   logo: string;
@@ -16,6 +17,8 @@ interface Skill {
 }
 
 const About: React.FC = () => {
+  usePageTitle('About');
+
   return (
     <>
       <Box color="secondary" className="about-wrapper">

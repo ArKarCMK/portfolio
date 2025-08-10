@@ -2,7 +2,6 @@ import { RouterProvider } from 'react-router-dom';
 import About from './pages/about';
 import Resume from './pages/resume';
 import Portfolio from './pages/portfolio';
-import Test from './pages/test';
 import DefaultLayout from './layouts/default';
 import { createBrowserRouter, Route, createRoutesFromElements, Navigate } from 'react-router-dom';
 import { system } from './theme';
@@ -26,7 +25,6 @@ const router = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path="portfolio" element={<Portfolio />} />
       <Route path="resume" element={<Resume />} />
-      <Route path="test" element={<Test />} />
     </Route>
   )
 );
