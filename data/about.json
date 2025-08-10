@@ -4,21 +4,21 @@
   "email": "arkarcmk.dev@gmail.com",
   "social_links": [
     {
-      "logo": "./public/social_logo/facebook.png",
-      "link": "https://www.facebook.com/arkarcmk"
-    },
-    {
       "logo": "./public/social_logo/github.png",
       "link": "https://github.com/arkarcmk"
     },
     {
       "logo": "./public/social_logo/linkedin.png",
       "link": "https://www.linkedin.com/in/arkarcmk/"
+    },
+    {
+      "logo": "./public/social_logo/telegram.png",
+      "link": "https://t.me/arkarcmk"
     }
   ],
   "about_me": [
     "I'm a passionate full-stack web and mobile app developer with a strong focus on creating dynamic websites and seamless mobile experiences. I thrive on solving complex problems and building solutions that enhance user experiences.",
-    "Currently, I'm a Senior Associate Engineer at Pro Empire where I work on a cross-border e-commerce platform. My work involves developing the Seller Centre for shop management, a Delivery Management System for logistics operations, and a Customer Mobile App to provide a smooth shopping experience.",
+    "Currently, I'm a Senior Associate Engineer at Zarmani where I work on a cross-border e-commerce platform. My work involves developing the Seller Centre for shop management, a Delivery Management System for logistics operations, and a Customer Mobile App to provide a smooth shopping experience.",
     "I'm also working as a part-time Senior Associate Engineer at Klonotech, building and deploying a church management system that includes an admin web app and a mobile app for church planters.",
     "Previously, as a Junior Developer at Klonotech, I was involved in developing web applications, including a CMS, School Management System, and Hotel Management System.",
     "Thanks for visiting!"

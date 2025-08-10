@@ -7,6 +7,7 @@ import ImageGallery, { type ReactImageGalleryItem } from 'react-image-gallery';
 
 import data from '../../data/portfolio.json';
 import '@/styles/portfolio.css';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 type Project = {
   title: string;
@@ -27,6 +28,7 @@ const Portfolio: React.FC = () => {
   const handleRedirect = (url: string) => {
     window.open(url, '_blank');
   };
+  usePageTitle('Portfolio');
 
   return (
     <>

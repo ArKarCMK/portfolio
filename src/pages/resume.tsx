@@ -6,8 +6,10 @@ import { FaFileDownload } from 'react-icons/fa';
 import '@/styles/resume.css';
 import data from '../../data/resume.json';
 import type { Experience, Education } from '@/types/resume';
+import { usePageTitle } from '@/hooks/usePageTitle';
 
 const Resume: React.FC = () => {
+  usePageTitle('Resume');
   return (
     <>
       <Box className="timeline">
