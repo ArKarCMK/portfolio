@@ -4,15 +4,15 @@
   "email": "arkarcmk.dev@gmail.com",
   "social_links": [
     {
-      "logo": "/public/social_logo/github.png",
+      "logo": "/social_logo/github.png",
       "link": "https://github.com/arkarcmk"
     },
     {
-      "logo": "/public/social_logo/linkedin.png",
+      "logo": "/social_logo/linkedin.png",
       "link": "https://www.linkedin.com/in/arkarcmk/"
     },
     {
-      "logo": "/public/social_logo/telegram.png",
+      "logo": "/social_logo/telegram.png",
       "link": "https://t.me/arkarcmk"
     }
   ],
@@ -24,19 +24,19 @@
     "Thanks for visiting!"
   ],
   "skill": [
-    { "name": "GoLang", "logo": "/public/skills/golang.png" },
-    { "name": "JavaScript", "logo": "/public/skills/javascript.png" },
-    { "name": "PHP", "logo": "/public/skills/php.png" },
-    { "name": "Dart", "logo": "/public/skills/dart.png" },
-    { "name": "Laravel", "logo": "/public/skills/laravel.png" },
-    { "name": "React", "logo": "/public/skills/react.png" },
-    { "name": "Vue.js", "logo": "/public/skills/vue.png" },
-    { "name": "Flutter", "logo": "/public/skills/flutter.png" },
-    { "name": "Linux", "logo": "/public/skills/linux.png" },
-    { "name": "Docker", "logo": "/public/skills/docker.png" },
-    { "name": "Nginx", "logo": "/public/skills/nginx.png" },
-    { "name": "MySQL", "logo": "/public/skills/mysql.png" },
-    { "name": "PostgreSQL", "logo": "/public/skills/postgresql.png" }
+    { "name": "GoLang", "logo": "/skills/golang.png" },
+    { "name": "JavaScript", "logo": "/skills/javascript.png" },
+    { "name": "PHP", "logo": "/skills/php.png" },
+    { "name": "Dart", "logo": "/skills/dart.png" },
+    { "name": "Laravel", "logo": "/skills/laravel.png" },
+    { "name": "React", "logo": "/skills/react.png" },
+    { "name": "Vue.js", "logo": "/skills/vue.png" },
+    { "name": "Flutter", "logo": "/skills/flutter.png" },
+    { "name": "Linux", "logo": "/skills/linux.png" },
+    { "name": "Docker", "logo": "/skills/docker.png" },
+    { "name": "Nginx", "logo": "/skills/nginx.png" },
+    { "name": "MySQL", "logo": "/skills/mysql.png" },
+    { "name": "PostgreSQL", "logo": "/skills/postgresql.png" }
   ],
   "skill_rating": [
     {
