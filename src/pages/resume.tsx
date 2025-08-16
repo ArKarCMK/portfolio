@@ -1,4 +1,4 @@
-import { Box, Icon, Button } from '@chakra-ui/react';
+import { Box, Icon, Button, List } from '@chakra-ui/react';
 import React from 'react';
 import { CiStar } from 'react-icons/ci';
 import { FaFileDownload } from 'react-icons/fa';
@@ -35,13 +35,13 @@ const Resume: React.FC = () => {
                   {exp.date}
                 </Box>
                 <Box>
-                  <ul className="description" color={'secondary'}>
+                  <List.Root className="description" color={'secondary'}>
                     {exp.description.map((desc: string, i: number) => (
-                      <li color={'secondary'} key={i}>
+                      <List.Item color={'secondary'} key={i}>
                         {desc}
-                      </li>
+                      </List.Item>
                     ))}
-                  </ul>
+                  </List.Root>
                 </Box>
               </Box>
             </Box>
