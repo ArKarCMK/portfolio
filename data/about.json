@@ -1,0 +1,98 @@
+{
+  "name": "Arkar Chan Myae Ko",
+  "title": "Web and Mobile App Developer",
+  "email": "arkarcmk.dev@gmail.com",
+  "social_links": [
+    {
+      "logo": "/social_logo/github.png",
+      "link": "https://github.com/arkarcmk"
+    },
+    {
+      "logo": "/social_logo/linkedin.png",
+      "link": "https://www.linkedin.com/in/arkarcmk/"
+    },
+    {
+      "logo": "/social_logo/telegram.png",
+      "link": "https://t.me/arkarcmk"
+    }
+  ],
+  "about_me": [
+    "I'm a passionate full-stack web and mobile app developer with a strong focus on creating dynamic websites and seamless mobile experiences. I thrive on solving complex problems and building solutions that enhance user experiences.",
+    "Currently, I'm a Senior Associate Engineer at ProHouse where I work on a cross-border e-commerce platform. My work involves developing the Seller Centre for shop management, a Delivery Management System for logistics operations, and a Customer Mobile App to provide a smooth shopping experience.",
+    "I'm also working as a part-time Senior Associate Engineer at Klonotech, building and deploying a church management system that includes an admin web app and a mobile app for church planters.",
+    "Previously, as a Junior Developer at Klonotech, I was involved in developing web applications, including a CMS, School Management System, and Hotel Management System.",
+    "Thanks for visiting!"
+  ],
+  "skill": [
+    { "name": "GoLang", "logo": "/skills/golang.png" },
+    { "name": "JavaScript", "logo": "/skills/javascript.png" },
+    { "name": "PHP", "logo": "/skills/php.png" },
+    { "name": "Dart", "logo": "/skills/dart.png" },
+    { "name": "Laravel", "logo": "/skills/laravel.png" },
+    { "name": "React", "logo": "/skills/react.png" },
+    { "name": "Vue.js", "logo": "/skills/vue.png" },
+    { "name": "Flutter", "logo": "/skills/flutter.png" },
+    { "name": "Linux", "logo": "/skills/linux.png" },
+    { "name": "Docker", "logo": "/skills/docker.png" },
+    { "name": "Nginx", "logo": "/skills/nginx.png" },
+    { "name": "MySQL", "logo": "/skills/mysql.png" },
+    { "name": "PostgreSQL", "logo": "/skills/postgresql.png" }
+  ],
+  "skill_rating": [
+    {
+      "title": "Frontend Development",
+      "language": [
+        {
+          "name": "VueJS/NuxtJS",
+          "rating": 90
+        },
+        {
+          "name": "React/NextJS",
+          "rating": 80
+        }
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "language": [
+        {
+          "name": "GoLang",
+          "rating": 75
+        },
+        {
+          "name": "PHP/Laravel",
+          "rating": 90
+        }
+        
+      ]
+    }, 
+    {
+      "title": "Mobile App Development",
+      "language": [
+        {
+          "name": "Dart/Flutter",
+          "rating": 70
+        },
+        {
+          "name": "NuxtJS + Capacitor",
+          "rating": 85
+        }
+      ]
+    }, 
+    {
+      "title": "DevOps & System Administration",
+      "language": [
+        { "name": "Linux", "rating": 90 },
+        { "name": "Nginx", "rating": 75 },
+        { "name": "Docker", "rating": 85 }
+      ]
+    }, 
+    {
+      "title": "Database Management",
+      "language": [
+        { "name": "MySQL", "rating": 80 },
+        { "name": "PostgreSQL", "rating": 75 }
+      ]
+    }
+  ]
+}

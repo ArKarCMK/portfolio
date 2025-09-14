@@ -1,0 +1,93 @@
+{
+  "projects": [
+    {
+      "title": "Portfolio Project",
+      "description": "This Portfolio Platform is a responsive personal website I built using React.js and Chakra UI, featuring About, Resume, and Portfolio pages. The About page introduces myself and my skills, the Resume page highlights my work experience, education, and includes a downloadable CV, while the Portfolio page showcases my projects with image galleries and tech stack tags. Although created as my personal site, it is open-source and easily customizable—anyone can adapt it by modifying the JSON file in the data directory and updating images and CV in the public folder.",
+      "images": [
+        {
+          "original": "/projects/portfolio-1.png"
+        },
+        {
+          "original": "/projects/portfolio-2.png"
+        },
+        {
+          "original": "/projects/portfolio-3.png"
+        },
+        {
+          "original": "/projects/portfolio-4.png"
+        }
+      ],
+      "tech_stacks": ["Reactjs", "Chakra UI"],
+      "github": [
+        {
+          "label": "Portfolio",
+          "link": "https://github.com/arkarcmk/portfolio"
+
+        }
+      ]
+
+    },
+    {
+      "title": "Venture Mobile",
+      "description": "Venture Mobile is a church management application designed to support church planters in organizing and overseeing their churches, contacts, and communities. The app includes features for managing church profiles, tracking community engagement, and maintaining contact records. To enhance user experience and functionality, Google Maps API is integrated to display and manage church locations. The app also integrates Firebase Cloud Messaging (FCM) to receive real-time push notifications, allowing church planters to stay informed about updates and important messages initiated from the web platform.",
+      "images": [
+        {
+          "original": "/projects/venture-mobile-1.png"
+        },
+        {
+          "original": "/projects/venture-mobile-2.png"
+        },
+        {
+          "original": "/projects/venture-mobile-3.png"
+        }
+      ],
+      "tech_stacks": ["Vuejs", "Laravel", "Google Maps API", "Firebase Cloud Messaging"]
+    },
+    {
+      "title": "Venture Admin Panel",
+      "description": "Venture Web is the administrative platform for managing church planters, churches, communities, contacts, and users. It is designed to provide movement leaders and administrators with comprehensive tools to oversee and support field operations. The system includes role-based access control, allowing users to view and manage data relevant to their roles—whether as an admin, movement leader, or church planter. Admin users can directly create and manage churches, communities, contacts, and user accounts through the web interface. The platform also supports dynamic language switching, enabling users to interact with the system in their preferred language. Additionally, the web platform integrates Firebase Cloud Messaging (FCM) to both send and receive notifications. This enables administrators to push real-time updates to mobile users and receive important events or alerts within the system.",
+      "images": [
+        {
+          "original": "/projects/venture-web-1.png"
+        },
+        {
+          "original": "/projects/venture-web-4.png"
+        },
+        {
+          "original": "/projects/venture-web-2.png"
+        },
+        {
+          "original": "/projects/venture-web-3.png"
+        }
+      ],
+      "tech_stacks": ["Nuxtjs", "Laravel"]
+    },
+    {
+      "title": "CMS Platform", 
+      "description": "This CMS Platform is a full-stack content management system I built as a personal project using Nuxt.js, Laravel, and MySQL. It enables users to register accounts, manage their own blog posts, and engage with other users through comments and likes. Authentication is handled via Laravel Sanctum, ensuring secure access. Users can edit their profiles, create and delete posts, and upload images, which are stored as BLOBs in the database for optimized management. The system is designed to be lightweight yet flexible, making it ideal for multi-user blogging communities or personal publishing tools.",
+      "images": [
+        {
+          "original": "/projects/blog-1.png"
+        },
+        {
+          "original": "/projects/blog-2.png"
+        },
+        {
+          "original": "/projects/blog-3.png"
+        },
+        {
+          "original": "/projects/blog-4.png"
+        }
+      ],
+      "tech_stacks": ["Nuxtjs", "Laravel", "MySQL"],
+      "github": [
+        {
+        "label": "Frontend",
+        "link":"https://github.com/ArKarCMK/blog-frontend"}, 
+        {
+        "label": "Api",
+        "link":"https://github.com/ArKarCMK/blog-api"}]
+    }
+    
+  ]
+}
